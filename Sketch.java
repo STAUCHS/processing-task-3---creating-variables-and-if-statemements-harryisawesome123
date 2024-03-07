@@ -26,8 +26,8 @@ public class Sketch extends PApplet {
     background(52, 151, 227);
 
     // Randomizer
-    HouseX = random(100, width - 250);
-    HouseY = random(100, height - 200);
+    HouseX = random(200, width - 250);
+    HouseY = random(200, height - 200);
 
     // Set Time
     CurrentTime = hour() + ":" + minute() + ":" + second();
