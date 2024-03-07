@@ -36,10 +36,10 @@ public class Sketch extends PApplet {
   public void draw() {
 
     // House
-    if (HouseY < width / 2 || HouseY == width / 2){
+    if (HouseY < height / 2 || HouseY == height / 2){
       fill(82, 51, 8);
     }
-      else if (HouseY > width / 2){
+      else if (HouseY > height / 2){
       fill(168, 50, 164);
     }
     rect(HouseX, HouseY, HouseSize, HouseSize);
