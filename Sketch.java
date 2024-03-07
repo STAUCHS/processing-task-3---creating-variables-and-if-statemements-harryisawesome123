@@ -2,7 +2,7 @@ import processing.core.PApplet;
 import java.util.Random;
 
 /**
- * A program Sketch.java is a house on a beauitful day drawing that has a random location each time
+ * A program Sketch.java is a house on a beauitful day drawing that has a random location each time and makes it pink when it reaches a certain depth.
  * @Author: H.Rahukulan 
  *
  */
